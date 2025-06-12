@@ -8,10 +8,10 @@ Demo: https://task-ososso.vercel.app/
 
 <h2>How To Run The Repo</h2>
 <ol>
-  <li>git clone {project}</li>
-  <li>cd Task_OSOSSO</li>
-  <li>npm install</li>
-  <li>npm run dev</li>
+  <li><code>git clone {project}</code></li>
+  <li><code>cd Task_OSOSSO</code></li>
+  <li><code>npm install</code></li>
+  <li><code>npm run dev</code></li>
 </ol>
 
 <p>You can test buttons style with code <code>npm run test</code></p>
