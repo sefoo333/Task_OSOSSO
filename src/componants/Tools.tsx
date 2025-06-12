@@ -1,13 +1,9 @@
-import { EditorState, RichUtils } from "draft-js";
+import { RichUtils } from "draft-js";
 import Button from "./Button";
+import type { ToolsType } from "../types/types";
 
-type props = {
-  editorState: EditorState;
-  onChange: (state:EditorState) => void,
-  renderToolbar?: { type: string; Title: string }[] 
-};
 
-function Tools({editorState , onChange , renderToolbar}:props) {
+function Tools({editorState , onChange , renderToolbar}:ToolsType) {
 
         const styleButton = (style:string) => {
             const newState = RichUtils.toggleInlineStyle(editorState, style);

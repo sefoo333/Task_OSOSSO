@@ -1,14 +1,12 @@
 import { convertToRaw, Editor, EditorState } from "draft-js"
 import { useCallback, useState } from "react";
 import Tools from "./Tools";
+import type { MyEditorType } from "../types/types";
 
 
-type MyEditor = {
-  value?: EditorState,
-  onChange?: (NewEditorState:EditorState) => void
-}
 
-function MyEditor({value,onChange,}:MyEditor) {
+
+function MyEditor({value,onChange,}:MyEditorType) {
 
 
    const CheckIsControlled:boolean = value !== undefined;
@@ -64,13 +62,12 @@ alert("Data Send 🟢")
   return (
    <div className="parent" style={{color:"black"}}>
      <div style={{ border: '1px solid #ccc' , color:"black", padding: "20px", height:"200px" }}>
-     <Editor
+      <Editor
       aria-input={"editor input"}
         editorState={editorState}
         onChange={handleChange}
         placeholder={"Write Here"}
       />
-
 
 
 

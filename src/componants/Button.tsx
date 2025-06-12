@@ -1,12 +1,9 @@
 import React from 'react'
+import type { ButtonType } from '../types/types';
 
-type Button = {
-    typeStyle:string;
-    styleButton:(type:string) => void,
-    children:React.ReactNode
-}
 
-    const Button = React.memo(({styleButton , children , typeStyle}:Button) => {
+
+    const Button = React.memo(({styleButton , children , typeStyle}:ButtonType) => {
         return <button onMouseDown={(e) => { e.preventDefault(); styleButton(typeStyle); }} data-testid={typeStyle}>
     {children}
       </button>
