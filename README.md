@@ -1,7 +1,7 @@
 # Task_OSOSSO
 Created By Seifeldeen Ali Mohamed
 
-<p>The Task created by <string></strong> Vite + react + typescript </strong></p>
+<p>The Task created by <strong> Vite + react + typescript </strong></p>
 <hr />
 
 <h2>How To Run The Repo</h2>
