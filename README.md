@@ -12,4 +12,4 @@ Created By Seifeldeen Ali Mohamed
   <li>npm run dev</li>
 </ol>
 
-<p>The page is contains controlled vs uncontrolled ,<br /> you can run api with json-server <br> test by jest</p>
+<p>The page is contains controlled vs uncontrolled ,<br /> you can run api with json-server <br> test by <strong>jest</strong></p>
