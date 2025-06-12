@@ -6,9 +6,9 @@ Created By Seifeldeen Ali Mohamed
 
 Demo: https://task-ososso.vercel.app/
 
-<h2>How To Run The Repo</h2>
+<h2>How To Fork The Repo ?</h2>
 <ol>
-  <li><code>git clone {project}</code></li>
+  <li><code>git clone https://github.com/sefoo333/Task_OSOSSO.git</code></li>
   <li><code>cd Task_OSOSSO</code></li>
   <li><code>npm install</code></li>
   <li><code>npm run dev</code></li>
