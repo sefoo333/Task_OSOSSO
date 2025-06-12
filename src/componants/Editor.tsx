@@ -64,11 +64,13 @@ alert("Data Send 🟢")
   return (
    <div className="parent" style={{color:"black"}}>
      <div style={{ border: '1px solid #ccc' , color:"black", padding: "20px", height:"200px" }}>
-      <Editor
+     <Editor
+      aria-input={"editor input"}
         editorState={editorState}
         onChange={handleChange}
         placeholder={"Write Here"}
       />
+
 
 
 
