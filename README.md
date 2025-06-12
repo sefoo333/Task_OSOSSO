@@ -16,4 +16,4 @@ Demo: https://task-ososso.vercel.app/
 
 <p>You can test buttons style with code <code>npm run test</code></p>
 
-<p>The page is contains controlled vs uncontrolled ,<br /> you can run api with json-server <br> test by <strong>jest</strong></p>
+<p>The page is contains controlled vs uncontrolled , and more <br /> you can run api with json-server <br> test by <strong>jest</strong></p>
